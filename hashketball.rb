@@ -117,6 +117,7 @@ def game_hash
   }
 end
 
+
 def num_points_scored(player_name)
   result = nil
   game_hash.each do |location, team_data|
@@ -189,15 +190,12 @@ def big_shoe_rebounds
 end
 
 
-
-
-
-
-
-
-
-
-
+# def num_points_scored(player_name)
+#   game_hash.each do |location, team_data|
+#     team_data[:players][player_name][:points]
+#   end
+#   binding.pry
+# end
 
 
 
